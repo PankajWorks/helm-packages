@@ -1,0 +1,13 @@
+global:
+  version: "1.0.0"
+replicas: 1
+image:
+  pullPolicy: IfNotPresent
+  demoapp:
+    name: hortonworks/dlm-app
+    tag: "1.4.0.0-4"
+service:
+  type: ClusterIP
+  port: 9011
+application:
+  id: dlm-add-dlm-app

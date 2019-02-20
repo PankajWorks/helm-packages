@@ -1,0 +1,17 @@
+#Add Ingress Definition here.
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{.Release.Name}}-dlm-add-dlm-app-ingress
+  namespace: dataplane
+  annotations:
+    kubernetes.io/ingress.class: traefik
+spec:
+  rules:
+  - host: dlm-add.dps-dev-canary.eng.hortonworks.com
+    http:
+      paths:
+      - path: /dlm
+        backend:
+          serviceName: {{.Release.Name}}-dlm-add-dlm-app
+          servicePort: http
