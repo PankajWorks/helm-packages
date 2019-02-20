@@ -3,7 +3,7 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: {{.Release.Name}}-dlm-add-dlm-app-ingress
-  namespace: dataplane
+  namespace: default
   annotations:
     kubernetes.io/ingress.class: traefik
 spec:
