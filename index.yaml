@@ -2,9 +2,9 @@ apiVersion: v1
 entries:
   dlmapp:
   - apiVersion: v1
-    created: 2019-02-20T17:25:19.418958+05:30
+    created: 2019-02-20T17:34:40.03499+05:30
     description: DLM App for DPS
-    digest: 95e6c72c62faa81ee65e1207ec004af9ab86b630ea99c35ac8d9ebd731a49ffd
+    digest: df74916855d1cfc86d644bb9b9514cf46e19ce08df9c83fa84984d4897b78ac9
     keywords:
     - DPS-DLM-APP
     maintainers:
@@ -13,4 +13,4 @@ entries:
     urls:
     - dlmapp-1.0.0.tgz
     version: 1.0.0
-generated: 2019-02-20T17:25:19.416529+05:30
+generated: 2019-02-20T17:34:40.033335+05:30
