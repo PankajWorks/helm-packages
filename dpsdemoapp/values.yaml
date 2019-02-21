@@ -1,0 +1,13 @@
+global:
+  version: "1.0.0"
+replicas: 1
+image:
+  pullPolicy: IfNotPresent
+  demoapp:
+    name: hortonworks/dps-demo-app
+    tag: "0.0.1-dev"
+service:
+  type: ClusterIP
+  port: 3000
+application:
+  id: "" #get the id from the UI and add it here.
