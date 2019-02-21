@@ -11,3 +11,6 @@ service:
   port: 9011
 application:
   id: dlm-add-dlm-app
+  host: manage.localhost
+  namespace: default
+

@@ -3,12 +3,12 @@ apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
   name: {{.Release.Name}}-dlm-add-dlm-app-ingress
-  namespace: default
+  namespace: {{.Values.application.namespace}}
   annotations:
     kubernetes.io/ingress.class: traefik
 spec:
   rules:
-  - host: dlm-add.dps-dev-canary.eng.hortonworks.com
+  - host: {{.Values.application.host}}
     http:
       paths:
       - path: /dlm
