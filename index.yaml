@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   dlmapp:
   - apiVersion: v1
-    created: 2019-02-21T12:57:35.79621+05:30
+    created: 2019-02-25T16:17:09.432123+05:30
     description: DLM App for DPS
     digest: f14cde8e1381f8c0cd1fed4b3bebb2bc1f3793bda17cee76bf275a411ff8105d
     keywords:
@@ -15,9 +15,9 @@ entries:
     version: 1.0.0
   dpsdemoapp:
   - apiVersion: v1
-    created: 2019-02-21T12:57:35.796453+05:30
+    created: 2019-02-25T16:17:09.432408+05:30
     description: Demo App for DPS
-    digest: 50986a0c631f3c6c39125d7e3288c776638f1361259598b061914cba7ba5dc70
+    digest: de5b437cb48f1e822a17b4fe8dba690151376890c9832309acfae04c021f535f
     keywords:
     - DPS-DEMO-APP
     maintainers:
@@ -26,4 +26,4 @@ entries:
     urls:
     - dpsdemoapp-1.0.0.tgz
     version: 1.0.0
-generated: 2019-02-21T12:57:35.795058+05:30
+generated: 2019-02-25T16:17:09.427555+05:30
