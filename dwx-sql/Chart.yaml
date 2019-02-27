@@ -1,0 +1,9 @@
+apiVersion: v1
+name: dwx-sql
+version: 1.0.0
+description: DWX app for DPS
+keywords:
+  - DPS-DWX-SQL-APP
+maintainers:
+  - name: Hortonworks
+deprecated: false
