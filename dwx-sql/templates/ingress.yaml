@@ -2,7 +2,7 @@
 apiVersion: extensions/v1beta1
 kind: Ingress
 metadata:
-  name: {{.Release.Name}}-dlm-add-dlm-app-ingress
+  name: {{.Release.Name}}--{{.Values.application.id}}-ingress
   namespace: {{.Values.application.namespace}}
   annotations:
     kubernetes.io/ingress.class: traefik
@@ -11,7 +11,7 @@ spec:
   - host: {{.Values.application.host}}
     http:
       paths:
-      - path: /dlm
+      - path: /dwx-sql
         backend:
-          serviceName: {{.Release.Name}}-dlm-add-dlm-app
+          serviceName: {{.Release.Name}}-{{.Values.application.id}}
           servicePort: http
