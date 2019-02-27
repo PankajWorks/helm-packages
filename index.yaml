@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   dlmapp:
   - apiVersion: v1
-    created: 2019-02-27T11:56:03.959091+05:30
+    created: 2019-02-27T12:24:40.787004+05:30
     description: DLM App for DPS
     digest: f14cde8e1381f8c0cd1fed4b3bebb2bc1f3793bda17cee76bf275a411ff8105d
     keywords:
@@ -15,7 +15,7 @@ entries:
     version: 1.0.0
   dpsdemoapp:
   - apiVersion: v1
-    created: 2019-02-27T11:56:03.960191+05:30
+    created: 2019-02-27T12:24:40.787684+05:30
     description: Demo App for DPS
     digest: de5b437cb48f1e822a17b4fe8dba690151376890c9832309acfae04c021f535f
     keywords:
@@ -28,9 +28,9 @@ entries:
     version: 1.0.0
   dwx-sql:
   - apiVersion: v1
-    created: 2019-02-27T11:56:03.960602+05:30
+    created: 2019-02-27T12:24:40.787976+05:30
     description: DWX app for DPS
-    digest: 662758239f37d67964fad807acb23811c225168a118b6057cacf9d33201e9cf8
+    digest: 441a18a5be3d593942716d3dbfbbd955d3a2fad1076495674e7d8e5a8f489691
     keywords:
     - DPS-DWX-SQL-APP
     maintainers:
@@ -39,4 +39,4 @@ entries:
     urls:
     - dwx-sql-1.0.0.tgz
     version: 1.0.0
-generated: 2019-02-27T11:56:03.956348+05:30
+generated: 2019-02-27T12:24:40.783866+05:30
