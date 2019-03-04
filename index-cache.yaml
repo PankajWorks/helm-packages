@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  dlmapp:
+  - apiVersion: v1
+    created: "2019-02-21T07:03:10Z"
+    description: DLM App for DPS
+    digest: f14cde8e1381f8c0cd1fed4b3bebb2bc1f3793bda17cee76bf275a411ff8105d
+    keywords:
+    - DPS-DLM-APP
+    maintainers:
+    - name: Hortonworks
+    name: dlmapp
+    urls:
+    - charts/dlmapp-1.0.0.tgz
+    version: 1.0.0
+  dpsdemoapp:
+  - apiVersion: v1
+    created: "2019-02-25T10:47:06Z"
+    description: Demo App for DPS
+    digest: de5b437cb48f1e822a17b4fe8dba690151376890c9832309acfae04c021f535f
+    keywords:
+    - DPS-DEMO-APP
+    maintainers:
+    - name: Hortonworks
+    name: dpsdemoapp
+    urls:
+    - charts/dpsdemoapp-1.0.0.tgz
+    version: 1.0.0
+  dwx-sql:
+  - apiVersion: v1
+    created: "2019-02-27T06:54:36Z"
+    description: DWX app for DPS
+    digest: 441a18a5be3d593942716d3dbfbbd955d3a2fad1076495674e7d8e5a8f489691
+    keywords:
+    - DPS-DWX-SQL-APP
+    maintainers:
+    - name: Hortonworks
+    name: dwx-sql
+    urls:
+    - charts/dwx-sql-1.0.0.tgz
+    version: 1.0.0
+generated: "2019-03-01T03:00:10Z"
+serverInfo: {}

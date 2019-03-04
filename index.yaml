@@ -1,34 +1,34 @@
 apiVersion: v1
 entries:
-  dlmapp:
+  demo-app:
   - apiVersion: v1
-    created: 2019-02-27T12:24:40.787004+05:30
-    description: DLM App for DPS
-    digest: f14cde8e1381f8c0cd1fed4b3bebb2bc1f3793bda17cee76bf275a411ff8105d
-    keywords:
-    - DPS-DLM-APP
-    maintainers:
-    - name: Hortonworks
-    name: dlmapp
-    urls:
-    - dlmapp-1.0.0.tgz
-    version: 1.0.0
-  dpsdemoapp:
-  - apiVersion: v1
-    created: 2019-02-27T12:24:40.787684+05:30
+    created: 2019-03-04T13:33:24.244993+05:30
     description: Demo App for DPS
-    digest: de5b437cb48f1e822a17b4fe8dba690151376890c9832309acfae04c021f535f
+    digest: d5da6009708b7419c38863c1936fa977fa9036a085e02c47505ef2589b73a538
     keywords:
     - DPS-DEMO-APP
     maintainers:
     - name: Hortonworks
-    name: dpsdemoapp
+    name: demo-app
     urls:
-    - dpsdemoapp-1.0.0.tgz
+    - demo-app-1.0.0.tgz
+    version: 1.0.0
+  dlm-app:
+  - apiVersion: v1
+    created: 2019-03-04T13:33:24.245234+05:30
+    description: DLM App for DPS
+    digest: 2902622d25696d42fdffb30907fd74d793e3e1bdd03b51236fbe36271b41f4c2
+    keywords:
+    - DPS-DLM-APP
+    maintainers:
+    - name: Hortonworks
+    name: dlm-app
+    urls:
+    - dlm-app-1.0.0.tgz
     version: 1.0.0
   dwx-sql:
   - apiVersion: v1
-    created: 2019-02-27T12:24:40.787976+05:30
+    created: 2019-03-04T13:33:24.24582+05:30
     description: DWX app for DPS
     digest: 441a18a5be3d593942716d3dbfbbd955d3a2fad1076495674e7d8e5a8f489691
     keywords:
@@ -39,4 +39,4 @@ entries:
     urls:
     - dwx-sql-1.0.0.tgz
     version: 1.0.0
-generated: 2019-02-27T12:24:40.783866+05:30
+generated: 2019-03-04T13:33:24.244374+05:30
